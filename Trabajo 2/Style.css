@@ -1,0 +1,21 @@
+body{
+    background-color:  pink;
+ }
+ h1{
+    color:rgb(75, 66, 66);
+    font-family: impact;
+    background-color: wheat;
+    font-size: 20px;  
+}
+h2{
+    color:rgb(75, 66, 66);
+    font-family: impact;
+    background-color: wheat;
+    font-size: 20px;
+}
+p{
+    font-size: 20px
+}
+ul{
+    font-size: 20px;
+}

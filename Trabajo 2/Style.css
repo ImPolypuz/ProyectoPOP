@@ -6,17 +6,17 @@ body{
     rgb(209, 14, 170),
     rgb(186, 11, 186)
     ); 
-   
  }
+ 
 h1{
     color:rgb(75, 66, 66);
-    font-family: impact;
+    font-family: "Roboto Slab";
     background-color: wheat;
-    font-size: 20px;  
+    font-size: 20px;
  }
 h2{
     color:rgb(75, 66, 66);
-    font-family: impact;
+    font-family: "Roboto Slab";
     background-color: wheat;
     font-size: 20px;
     text-transform: uppercase;

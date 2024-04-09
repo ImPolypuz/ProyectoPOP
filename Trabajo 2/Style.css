@@ -8,17 +8,6 @@ body{
     ); 
    
  }
-
-body{
-   background: linear-gradient(180deg,
-    rgb(225, 222, 20),
-    rgb(212, 82, 26),
-    rgb(214, 18, 18),
-    rgb(209, 14, 170),
-    rgb(186, 11, 186)
-    ); 
-   
- }
 h1{
     color:rgb(75, 66, 66);
     font-family: impact;

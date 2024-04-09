@@ -1,21 +1,40 @@
 body{
-    background-color:  pink;
+   background: linear-gradient(180deg,
+    rgb(225, 222, 20),
+    rgb(212, 82, 26),
+    rgb(214, 18, 18),
+    rgb(209, 14, 170),
+    rgb(186, 11, 186)
+    ); 
+   
  }
- h1{
+
+body{
+   background: linear-gradient(180deg,
+    rgb(225, 222, 20),
+    rgb(212, 82, 26),
+    rgb(214, 18, 18),
+    rgb(209, 14, 170),
+    rgb(186, 11, 186)
+    ); 
+   
+ }
+h1{
     color:rgb(75, 66, 66);
     font-family: impact;
     background-color: wheat;
     font-size: 20px;  
-}
+ }
 h2{
     color:rgb(75, 66, 66);
     font-family: impact;
     background-color: wheat;
     font-size: 20px;
-}
+    text-transform: uppercase;
+ }
 p{
     font-size: 20px
-}
+ }
 ul{
     font-size: 20px;
-}
+ }

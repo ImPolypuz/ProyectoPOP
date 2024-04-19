@@ -1,0 +1,45 @@
+body {
+
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+#rojo {
+
+    display: flex;
+    background-color: red;
+    width: 360px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+
+}
+
+#azul {
+
+    display: flex;
+    background-color: blue;
+    width: 360px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+
+}
+
+#verde {
+
+    display: flex;
+    background-color: green;
+    width: 360px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}

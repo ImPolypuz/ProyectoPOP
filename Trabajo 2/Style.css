@@ -16,6 +16,7 @@ h1{
     padding: 10px;
     border-radius: 20px;
  }
+
 h2{
     color:rgb(75, 66, 66);
     font-family: "Roboto Slab";
@@ -23,9 +24,11 @@ h2{
     font-size: 20px;
     text-transform: uppercase;
  }
+
 p{
     font-size: 20px
  }
+ 
 ul{
     font-size: 20px;
  }

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body style="background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); padding-left: 10px;padding-right: 10px;">
+
+    <h1 style="text-align: center;">Miki Matsubara</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="background-color: lightblue;">
+                Miki Matsubara
+            </div>
+            <div class="col" style="background-color: palevioletred;">
+                Entre sus canciones mas famosas se encuentran
+            </div>
+            <div class="col" style="background-color: lightyellow;">
+                Otras voces femeninas del City Pop
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col" style="background-color: lightblue;">
+                    Fue una cantante, compositora y letrista japonesa reconocida en el ámbito del City Pop, originaria
+                    de la prefectura de Osaka y ampliamente reconocida por su canción debut «Mayonaka no Door ~Stay with
+                    Me» de 1979
+                </div>
+                <div class="col" style="background-color: palevioletred;">
+                    <ul>
+                        <li>Wash</li>
+                        <li>Jazzy Night</li>
+                        <li>Ai Wa Energy</li>
+                        <li>Bay City Romance</li>
+                        <li>Chandelier Mirage</li>
+                    </ul>
+                </div>
+                <div class="col" style="background-color: lightyellow;">
+                    <ul>
+                        <li><a href="https://en.wikipedia.org/wiki/Junko_Ohashi" target="_blank">Junko Okashi</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Anri" target="_blank">Anri</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Taeko_Ohnuki" target="_blank">Taeko Onuki</a></li>
+                        <li><a href="https://es.wikipedia.org/wiki/Mariya_Takeuchi" target="_blank">Mariya Takeuchi</a>
+                        </li>
+                        <li><a href="https://en.wikipedia.org/wiki/Junko_Yagami" target="_blank">Junko Yagami</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide w-100" data-ride="carousel">
+            <div class="carousel-inner m-auto" style="width: 500px; height: 500px">
+                <div class="carousel-item active h-100 w-100">
+                    <img class="h-100 w-100" style="object-fit: cover;" src="../Trabajo 5/imagenes/miki1.jpg"
+                        alt="First slide">
+                </div>
+
+                <div class="carousel-item h-100 w-100">
+                    <img class="h-100 w-100" style="object-fit: cover;" src="../Trabajo 5/imagenes/miki2.jpg"
+                        alt="Second slide">
+                </div>
+
+                <div class="carousel-item h-100 w-100">
+                    <img class="h-100 w-100" style="object-fit: cover;" src="../Trabajo 5/imagenes/miki3.webp"
+                        alt="Third slide">
+                </div>
+
+                <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1DZ06evO2vwzIs?utm_source=generator&theme=0"
+            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <hr>
+        <div>
+            <h3>Wikipedia</h3>
+
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <a href="https://es.wikipedia.org/wiki/Miki_Matsubara" target="_blank" button type="button"
+                    class="btn btn-outline-dark"><strong>Miki Matsubara</strong></button></a>
+                <a href="https://es.wikipedia.org/wiki/City_pop" target="_blank" button type="button"
+                    class="btn btn-outline-dark"><strong>City Pop</strong></button></a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="contact_form">
+
+            <div class="formulario">
+                <h2>Unite a City Pop Fans</h2>
+                <h4>Boletines mensuales y mucho mas!</h4>
+
+
+<form action="">
+
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="telefone" class="colocar_telefono">Teléfono
+                        </label>
+                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Dejanos tu mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
+
+                  
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded mr-2" alt="...">
+                      <strong class="mr-auto">Bootstrap</strong>
+                      <small>11 mins ago</small>
+                      <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times; ALA </span>
+                      </button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+</html>

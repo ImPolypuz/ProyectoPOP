@@ -1,0 +1,164 @@
+body {
+    font-family: 'IBM Plex Sans';
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+}
+
+header h1 {
+    color: white;
+}
+
+nav {
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    border: 1px solid gray;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    background-color: aqua;
+}
+
+footer {
+    background-color: rgb(209, 208, 208);
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text {
+    margin-left: 50%;
+}
+
+.holder {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.ajoba {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.synth {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+
+    p {
+        padding: 2%;
+        background-color: aliceblue
+    }
+}
+
+.synth:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.home p {
+    padding: 0;
+    margin: 0;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cuadro {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    padding: 13px;
+    width: 172px;
+  
+}
+
+.cuadro img {
+    width: 100%;
+    box-shadow: 0 0 5px black;
+}
+
+.cuadro h5{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+}
+
+.peliculas h2{
+    text-align: center;
+}
+
+.divito{
+    display: flex;
+    width: 100%;
+    
+}
+
+.cuadro-descripcion {
+    flex: 1;
+    align-content: center;
+margin: 5%;
+}
+
+.letra{
+    text-align: center;
+}

@@ -129,6 +129,7 @@ footer p {
     text-align: center;
     padding: 13px;
     width: 172px;
+    background-color: white;
   
 }
 
@@ -145,6 +146,11 @@ footer p {
 
 .peliculas h2{
     text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
 }
 
 .divito{
@@ -157,6 +163,13 @@ footer p {
     flex: 1;
     align-content: center;
 margin: 5%;
+p{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+}
 }
 
 .letra{

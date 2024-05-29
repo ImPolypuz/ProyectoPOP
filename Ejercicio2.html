@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+    function contarTexto() {
+    const texto = document.form_main.texto.value;
+    document.getElementById('caracteres').innerText = texto.length;}
+</script>
+    <title>Document</title>
+</head>
+<body>
+
+<form name="form_main">
+  <fieldset>
+    <textarea name="texto" id="texto" oninput="contarTexto()"></textarea>
+    <label for="caracteres">Caracteres: </label>
+    <span id="caracteres"></span>
+  </fieldset>
+</form>
+</body>
+</html>

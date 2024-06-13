@@ -6,16 +6,7 @@ const Vaporwave = () => {
     <div>
       <>
         <Navbar />
-        <header>
-          <div className="holder header">
-            <img
-              src={"./imagenes/logo.png"}
-              width="70%"
-              alt="logo"
-              className="center"
-            />
-          </div>
-        </header>
+
         <main className="holder">
           <h2
             style={{
